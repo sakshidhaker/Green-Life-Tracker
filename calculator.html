@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carbon Footprint Calculator - Green Life Tracker</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <header class="main-header">
+    <img src="https://bicooldesign.ca/wp-content/uploads/2016/07/Greenlife-logo-800x600.jpg" alt="Green Life Logo" class="logo">
+    <h1>Green Life Tracker</h1>
+    <p>Calculate your eco impact 🌱</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="index1.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="tracker.html">Tracker</a>
+    <a href="tips.html">Tips</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main class="calculator-section">
+    <h2>Carbon Footprint Calculator</h2>
+    
+    <!-- ✅ FIXED: Added id="calculator-form" -->
+    <form id="calculator-form" class="calculator-form">
+      <label for="transport">Daily transport (km):</label>
+      <input type="number" id="transport" name="transport" placeholder="e.g. 10" required><hr>
+
+      <label for="electricity">Monthly electricity use (kWh):</label>
+      <input type="number" id="electricity" name="electricity" placeholder="e.g. 200" required><hr>
+
+      <label for="meals">Meat meals per week:</label>
+      <input type="number" id="meals" name="meals" placeholder="e.g. 5" required><hr>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <!-- ✅ Where result will appear -->
+    <div id="result" class="result-box"></div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Green Life Tracker | Calculate. Track. Improve. 🌏</p>
+  </footer>
+
+  <!-- ✅ Link to JavaScript file -->
+  <script src="calculator.js"></script>
+</body>
+</html>

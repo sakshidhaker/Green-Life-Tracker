@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #89c59b;
+}
+
+.main-header {
+  text-align: center;
+  background: linear-gradient(to right, #007f3b, #3cb043);
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar {
+  background-color: #004d26;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #93ce93;
+}
+
+.calculator-section {
+  padding: 30px;
+  background-color: #eaffea;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.calculator-section h2 {
+  text-align: center;
+  color: #006622;
+  margin-bottom: 20px;
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.calculator-form label {
+  font-weight: bold;
+  color: #004d26;
+}
+
+.calculator-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calculator-form button {
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.calculator-form button:hover {
+  background-color: #218838;
+}
+
+.footer {
+  background-color: #004d26;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #d0f0c0;
+  border: 1px solid #a5d6a7;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Green Life Tracker</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .main-header {
+      text-align: center;
+      background-color: rgba;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .navbar {
+      background-color: #2e7d32;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      background-color: #1b5e20;
+    }
+
+    .gallery-section {
+      padding: 30px;
+      text-align: center;
+      background: #b4f0b4;
+    }
+
+    .gallery-section h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #2e7d32;
+    }
+
+    .gallery-grid {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 15px;
+      padding: 10px;
+    }
+
+    .gallery-grid img {
+      height: 200px;
+      width: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      flex: 0 0 auto;
+      transition: transform 0.3s;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    .gallery-grid::-webkit-scrollbar {
+      display: none;
+    }
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header class="main-header">
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/0c8d9868532637.5b606b6d3399f.jpg" alt="Logo" class="logo">
+    <h1>Green Life Tracker</h1>
+    <p>🌳 Inspiration through visuals 🌳</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="index1.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="tracker.html">Tracker</a>
+    <a href="tips.html">Tips</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="gallery-section">
+    <h2>Eco Gallery</h2>
+    <div class="gallery-grid">
+     <marque> <img src="https://www.cambridgegardencentre.ca/wp-content/uploads/2020/06/Tree-Planting-2.jpg" alt="Planting Trees">
+      <img src="https://as1.ftcdn.net/v2/jpg/05/54/51/40/1000_F_554514065_A5Y17mmaZgxkbcKri1g52RrLDtLzOU54.jpg" alt="Eco Activity">
+      <img src="https://as1.ftcdn.net/v2/jpg/05/79/60/88/1000_F_579608886_cj6genpdz8P3478iHxHI4VeYdQeJxgQX.jpg" alt="Recycling">
+      <img src="https://i.ytimg.com/vi/_blpf4nGjFQ/maxresdefault.jpg" alt="Recycling Poster">
+      <img src="https://img.freepik.com/premium-photo/people-planting-tree-ground_679964-10253.jpg" alt="Planting Tree">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.E9upsPOrwFGWiDQa0RBOFgHaEP?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Green Transport">
+      <img src="https://eco.brahmakumaris.org/wp-content/uploads/2019/09/460-Plasticfreelogo.jpg" alt="Plastic Free Campaign">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.vFgutsaCe-XE4S1StS6oIgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Rainwater Harvesting">
+      <img src="https://i.pinimg.com/736x/20/01/d1/2001d139363ff15bcb8ff41386b71893.jpg" alt="Tree Plantation">
+      <img src="https://digiuniverse.in/wp-content/uploads/2024/11/Life-Tracker.png" alt="Life Tracker">
+      <img src="https://img.youtube.com/vi/OmyfB513E1s/maxresdefault.jpg" alt="Awareness Video">
+      <img src="https://m.media-amazon.com/images/I/415DONrF64L._SY445_SX342_.jpg" alt="Sustainable Poster">
+    </marque></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Green Life Tracker | Visual Inspiration for Green Living 🌱</p>
+  </footer>
+</body>
+</html>
+
